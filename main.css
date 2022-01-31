@@ -90,6 +90,10 @@ nav#utilityMenu li {
     vertical-align: middle;
 }
 
+.socialIcon {
+    width: 20px ;
+    height: 20px;
+}
 
 nav li {
     display: inline-block;
@@ -142,6 +146,10 @@ section div.panel img {
     /* height: 100%; */
 }
 
+.menuImage {
+    width: 100px ;
+    height: 200px;
+}
 
 section#main {
     width: 100%;
@@ -216,5 +224,20 @@ button {
 
 button:hover {
     background: #fbf3db;
-    border: 1px solid #ac272b
+    border: 1px solid #ac272b;
+    cursor: pointer;
+}
+
+form select, form button {
+    width: 100%;
+    /* min-width: 300px; */
+    /* Our inputs and forms have different default sizes.
+    By changing the box-sizing, we can fix this. */
+    box-sizing: border-box;
+    margin: .75rem 0;
+    padding: .25rem;
+    line-height: 1.5rem;
+    font-size: 1em;
+    border: solid 1px gray;
+    border-radius: 3px;
 }
